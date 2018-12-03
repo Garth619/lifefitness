@@ -1,0 +1,11 @@
+[xicon-box layout="center" icon="fa-users" title="Lorem"]Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. [/xicon-box]
+
+[xicon-box layout="center" icon="fa-heartbeat" title="Lorem"]Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.[/xicon-box]
+
+[xicon-box layout="right" icon="fa-bell" title="Lorem"]Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  [/xicon-box]
+
+[xicon-box layout="right" icon="fa-car" title="Lorem"]Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  [/xicon-box]
+
+[xicon-box layout="left" icon="fa-circle-thin" title="Lorem"]Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.[/xicon-box]
+
+[xicon-box layout="left" icon="fa-check-square" title="Lorem"]Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. [/xicon-box]

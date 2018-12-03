@@ -1,0 +1,1 @@
+[vc_row][vc_column width="1/1"][divider layout="1"]Lorem ipsum[/divider][/vc_column][/vc_row][vc_row][vc_column width="1/1"][divider layout="2"]Lorem ipsum[/divider][/vc_column][/vc_row][vc_row][vc_column width="1/1"][divider layout="3"]Lorem ipsum[/divider][/vc_column][/vc_row]

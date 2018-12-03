@@ -1,0 +1,15 @@
+<?xml version='1.0'?> 
+<options>
+	<tab label="reCaptcha API" icon="cog">
+		<group>
+			<fields label="Site key">
+				<option id="cactus-poll-site-key" type="textfield" width="400" default=""></option>
+				<description>Get this key from google.com/recaptcha</description>
+			</fields>
+			<fields label="Secret key">
+				<option id="cactus-poll-secret-key" type="textfield" width="400" default=""></option>
+				<description>Get this key from google.com/recaptcha</description>
+			</fields>
+		</group>
+	</tab>
+</options>

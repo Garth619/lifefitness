@@ -1,0 +1,1 @@
+[vc_row][vc_column width="1/1"][c_column title="Compare Table" price="120" price_text="per month" currency="$"][c_row]Content[/c_row][c_row]Content[/c_row][c_row]Content[/c_row][c_row]Content[/c_row][c_row]Content[/c_row][c_row][button link="#" size="large"]Buy Now[/button][/c_row][/c_column][/vc_column][/vc_row]

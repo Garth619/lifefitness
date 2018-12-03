@@ -1,0 +1,11 @@
+[divider layout="1" color=""]Lorem ipsum[/divider]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labvore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation The hardware maker pleasure. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+[divider layout="2" color=""]Lorem ipsum[/divider]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labvore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation The hardware maker pleasure. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+[divider layout="3" color=""]Lorem ipsum[/divider]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labvore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation The hardware maker pleasure. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

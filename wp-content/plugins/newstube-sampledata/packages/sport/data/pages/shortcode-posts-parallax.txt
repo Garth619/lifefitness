@@ -1,0 +1,1 @@
+[vc_row][vc_column width="1/1"][xparallax condition="view" order="DESC" featured="0" count="5" cats="29"][/vc_column][/vc_row]

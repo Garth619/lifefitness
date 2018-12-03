@@ -1,0 +1,132 @@
+<?xml version='1.0'?> 
+<options>
+	<tab label="General" icon="cog">
+		<group>
+			<fields label="Player for Video File">
+				<option id="single_player_video" type="select" default="jwplayer" tooltip="" >
+					<select value="jwplayer" text="JWPlayer 6"/>
+					<select value="jwplayer_7" text="JWPlayer 7"/>
+					<select value="flowplayer" text="FV FlowPlayer"/>
+					<select value="flowplayer_html5" text="FlowPlayer HTML5"/>
+					<select value="videojs" text="VideoJS - HTML5 Video Player"/>
+					<select value="mediaelement" text="WordPress Native Player: MediaElement"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Force Using VideoJS for external videos">
+				<option id="force_videojs" type="select" default="" tooltip="" >
+					<select value="on" text="Yes"/>
+					<select value="off" text="No"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Auto Play Video">
+				<option id="auto_play_video" type="select" default="0" tooltip="" >
+					<select value="1" text="Yes"/>
+					<select value="0" text="No"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Auto Load Next Video">
+				<option id="auto_load_next_video" type="select" default="0" tooltip="" >
+					<select value="1" text="Yes"/>
+					<select value="0" text="No"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Auto Load Next Video after">
+				<description>Enter number in seconds. Ex: 5 (seconds)</description>
+				<option id="delay_video" label="Delay" type="textfield" width="100" default="5"></option>
+			</fields>	
+			<fields label="Choose Next Video for Auto Load">
+				<option id="auto_load_next_prev" type="select" default="0" tooltip="" >
+					<select value="0" text="Newer Video"/>
+					<select value="1" text="Older Video"/>
+				</option>
+				<description></description>
+			</fields>
+		</group>
+	</tab>
+	<tab label="Youtube Settings" icon="cog">
+		<group>
+			<fields label="Force Using JWPlayer">
+				<option id="using_jwplayer_param" type="select" default="0" tooltip="" >
+					<select value="0" text="No"/>
+					<select value="1" text="Yes"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Related videos">
+				<description>Display related videos at the end of the video</description>
+				<option id="onoff_related_yt" type="select" default="1" tooltip="" >
+					<select value="1" text="Hide"/>
+					<select value="0" text="Show"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Use HTML5 player">
+				<description>Use HTML5 player to play YouTube videos</description>
+				<option id="onoff_html5_yt" type="select" default="0" tooltip="" >
+					<select value="0" text="No"/>
+					<select value="1" text="Yes"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Show Video Info on player">
+				<option id="onoff_info_yt" type="select" default="0" tooltip="" >
+					<select value="0" text="Show"/>
+					<select value="1" text="Hide"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Remove annotations on video">
+				<option id="remove_annotations" type="select" default="0" tooltip="" >
+					<select value="0" text="Yes"/>
+					<select value="1" text="No"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Force using Embed Code">
+				<option id="using_yout_param" type="select" default="0" tooltip="" >
+					<select value="0" text="No"/>
+					<select value="1" text="Yes"/>
+				</option>
+				<description></description>
+			</fields>
+			
+			<fields label="Allow Full Screen">
+				<option id="allow_full_screen" type="select" default="1" tooltip="" >
+					<select value="1" text="Yes"/>
+					<select value="0" text="No"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Allow Networking">
+				<option id="allow_networking" type="select" default="" tooltip="" >
+					<select value="1" text="Yes"/>
+					<select value="0" text="No"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Allow Interactive Videos">
+				<option id="interactive_videos" type="select" default="0" tooltip="" >
+					<select value="1" text="Disable"/>
+					<select value="0" text="Enable"/>
+				</option>
+				<description></description>
+			</fields>
+		</group>
+	</tab>
+	<tab label="Playlist settings" icon="cog">
+		<group>
+			<fields label="Playlist slug">
+				<option id="playlist-slug" type="textfield" width="100" default="playlist"></option>
+				<description>Change single playlist slug. Remember to save the permalink settings again in Settings > Permalinks</description>
+			</fields>
+			<fields label="Playlists Listing page">
+				<option id="playlist-lis-slug" type="page" width="100" default=""></option>
+				<description>Assign Playlists Listing page to a page. Remember to save the permalink settings again in Settings > Permalinks</description>
+			</fields>
+		</group>
+	</tab>
+</options>

@@ -1,0 +1,15 @@
+[xgrid layout="1" count="5" condition="latest" order="DESC" tags="" featured="0" ids="" speed="4000" cats=""]
+
+[xcarousel count="5" condition="latest" order="DESC" tags="" featured="0" ids="" cats="" autoplay="1" visible=""]
+
+[xclassicslider layout="horizontal" count="" condition="latest" order="DESC" tags="" featured="0" ids="" cats="" autoplay="1"]
+
+[xparallax count="5" condition="latest" order="DESC" tags="" featured="0" ids="" cats=""]
+
+[xslider count="5" condition="latest" order="DESC" tags="" featured="0" ids="" cats="" autoplay="1"]
+
+[xthumbslider count="5" condition="random" order="DESC" tags="" featured="0" ids="" cats="" autoplay="1"]
+
+[scb layout="1" title="Smart content" condition="latest" order="DESC" tags="" featured="0" ids="" cats="" items_per_page="" enable_cat_filter="1" show_meta="1" heading_color="" heading_bg=""]
+
+[xtestimonial scroll="1"]<br class="nc" />[xtestimonial_item name="Lorem" title="You Position" avatar="0" avatar_url=""]Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. <br class="nc" />[/xtestimonial_item]<br class="nc" />[xtestimonial_item name="Your Name" title="You Position" avatar="1" avatar_url=""]Your testimonial content <br class="nc" />[/xtestimonial_item]<br class="nc" />[xtestimonial_item name="Lorem ipsum" title="You Position" avatar="1" avatar_url=""]Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. <br class="nc" />[/xtestimonial_item]<br class="nc" />[/xtestimonial]

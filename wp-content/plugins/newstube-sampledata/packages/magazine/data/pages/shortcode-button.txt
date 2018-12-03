@@ -1,0 +1,5 @@
+[button href="#" target="0" bg_color="#222" bg_hover="#555" text_color="" text_hover="#fff"]Button[/button]
+
+[button href="https://www.google.com.vn/" target="0" bg_color="#222" bg_hover="#555" text_color="#" text_hover="#fff"]Button 2[/button]
+
+[button href="#" target="1" bg_color="#dbdbdb" bg_hover="#555" text_color="#000" text_hover="#fff"]Button 3[/button]

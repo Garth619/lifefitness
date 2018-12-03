@@ -1,0 +1,1 @@
+[vc_row][vc_column width="1/1"][xcarousel condition="latest" order="DESC" featured="0" autoplay="1"][/vc_column][/vc_row]

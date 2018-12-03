@@ -1,0 +1,5 @@
+[20-Sep-2018 17:35:20 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[25-Sep-2018 16:25:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/lifefitnesstrain/public_html/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 00:26:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/lifefitnesstrain/public_html/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 00:42:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/lifefitnesstrain/public_html/wp-includes/class-wp-hook.php on line 288
+[02-Oct-2018 19:55:12 UTC] WPMDB Error: Data cannot be unserialized. Scope: WPMDB_Replace::recursive_unserialize_replace().

@@ -1,0 +1,414 @@
+/*
+Theme Name: cactus
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align:right;
+}
+
+/*Main mobile menu*/
+#off-canvas { left:0;}
+#off-canvas .search-mobile-menu>li .fa-search { left:13px; right:auto;}
+#off-canvas .search-mobile-menu>li input[type="submit"] { right:auto; left:2px;}
+#off-canvas .menu-item .sub-menu { text-align:right;}
+
+/*Navigation menu*/
+#top-nav .navbar-nav.open-menu-mobile-top>li>ul>li a { text-align:right;}
+#top-nav .navbar-nav>li ul li a  { text-align:right;}
+#top-nav .navbar-nav>li ul li ul { left:auto; right:100%;}
+#top-nav .navbar-nav>li ul { border-left:none; border-right:2px solid transparent;}
+#top-nav .sub-menu, 
+#top-nav .dropdown-menu { left:auto; right:0; margin-left:auto; margin-right:-2px;}
+
+.cactus-headline .swiper-slide { direction:rtl; text-align:right;}
+.cactus-headline .cactus-note-cat { margin-right:auto; margin-left:7px;}
+.cactus-headline .navigation { float:right; margin-right:auto; margin-left:10px; direction:ltr;}
+.cactus-headline .navigation .swiper-slide { direction:rtl;}
+.cactus-headline .title {float:right; margin-right:auto; margin-left:10px;}
+.cactus-headline .button-prev { margin-right:auto;}
+.cactus-headline .button-next { margin-left:1px;}
+
+@media (max-width: 1199px){
+	#top-nav .navbar-nav>li ul {
+	  right: 0;
+	  left: auto;
+	}	
+	#top-nav .navbar-nav.cactus-login>li ul {
+	  border-left: 2px solid transparent;
+	  border-right: none;
+	}
+	.cactus-headline .navbar-left {
+		padding-right:0;
+		float:right !important;
+	}
+}
+
+.cactus-main-menu { float:right; padding-right:0;}
+.cactus-main-menu * { text-align:right;}
+#main-menu .search-drop-down>li>ul>li input[type="submit"] { right:auto; left:2px;}
+#main-menu .search-drop-down>li>ul>li .fa-search { right:auto; left:12px;}
+#main-menu .dropdown-mega .sub-channel { float:right; border-left:none; border-right:none; margin-right:0;}
+#main-menu .dropdown-mega .channel-content { float:left;}
+#main-menu .dropdown-mega .sub-channel:after { right:25%}
+
+.cactus-logo-nav { float:right; padding-right:0;}
+
+.cactus-nav.style-4 .cactus-main-menu>li { margin-right:auto; margin-left:-3px;}
+.cactus-nav.style-4 .cactus-sticky-menu .cactus-main-menu { text-align:right;}
+
+@media (min-width: 768px){
+	#main-menu .navbar-right.search-drop-down { float:left !important}
+	#main-menu .search-drop-down>li>ul { right:auto; left:0; margin-left:0;}	
+	.navbar-header { float:right;}
+	.navbar>.container .navbar-brand, 
+	.navbar>.container-fluid .navbar-brand {
+	  margin-right: -15px;
+	  margin-left:auto;
+	}
+	#main-nav .navbar-right { float:left !important; margin-right:auto; margin-left:-15px;}	
+	.cactus-nav.style-4 .search-drop-down { right:auto; left:0;}
+}
+@media (max-width: 1199px){
+	#main-nav .navbar-default .navbar-nav, #main-nav .navbar-default .navbar-nav>li {
+		margin-left:0;
+	}
+}
+@media(max-width:767px){
+	#top-nav .navbar-nav.cactus-login>li>a { padding-top:9px; padding-bottom:10px;}
+}
+.navbar-right { padding-right:0;}
+
+#main-menu .navbar-nav>li ul { left:auto; right:0; border-left:none; margin-left:auto; margin-right:-2px; border-right: 2px solid transparent;}
+#main-menu .navbar-nav>li ul li ul{ left:auto; right:100%; margin-left:auto;}
+
+#main-menu .navbar-nav.search-drop-down>li > ul.search-main-menu { left:0; right:auto; border-right:none;}
+
+#main-menu .navbar-default.cactus-sticky-menu .dropdown-mega .preview-mode,
+#main-menu .navbar-default.cactus-sticky-menu .dropdown-mega .sub-menu-box-grid { width:1180px; left:auto; right:50%; margin-left:auto; margin-right:-589px; backface-visibility:hidden; -webkit-backface-visibility:hidden; border:none;}
+.cactus-full-width #main-menu .navbar-default .dropdown-mega .preview-mode,
+.cactus-full-width #main-menu .navbar-default .dropdown-mega .sub-menu-box-grid { width:1180px; left:auto; right:50%; margin-left:auto; margin-right:-590px; backface-visibility:hidden; -webkit-backface-visibility:hidden; border:none;}
+@media(max-width:1199px){
+	.cactus-full-width #main-menu .navbar-default .dropdown-mega .preview-mode,
+	.cactus-full-width #main-menu .navbar-default .dropdown-mega .sub-menu-box-grid { width:980px; margin-left: auto; margin-right:-490px;}
+	#main-menu .navbar-default.cactus-sticky-menu .dropdown-mega .preview-mode,
+	#main-menu .navbar-default.cactus-sticky-menu .dropdown-mega .sub-menu-box-grid { width:980px; margin-left: auto; margin-right:-489px;}
+}
+@media(max-width:991px){
+	.cactus-full-width #main-menu .navbar-default .dropdown-mega .preview-mode,
+	.cactus-full-width #main-menu .navbar-default .dropdown-mega .sub-menu-box-grid,
+	#main-menu .navbar-default.cactus-sticky-menu .dropdown-mega .preview-mode,
+	#main-menu .navbar-default.cactus-sticky-menu .dropdown-mega .sub-menu-box-grid { width:760px; margin-left:auto; margin-right:-380px;}
+}
+
+.cactus-full-width #main-menu .user_submit { margin-right:0; margin-left:20px;}
+
+/*Widget*/
+.widget .widget-title { padding-left:0; padding-right:13px;}
+.widget .widget-title:before { left:auto; right:0;}
+.cactus-sidebar .widget .widget-title:before { left:auto; right:0;}
+
+.social-listing li { margin:0 0 10px 10px}
+
+.widget_categories li a, 
+.widget_meta li a, 
+.widget_archive li a, 
+.widget_recent_entries li a, 
+.widget_recent_comments li a,
+.widget_pages li a, 
+.widget_nav_menu li a,
+.widget_mostlikedpostswidget li a,
+.widget_recentlylikedpostswidget li a,
+.widget_most_viewed_entries li a { padding-left:0; padding-right:14px;}
+
+.widget_categories li a:before, 
+.widget_meta li a:before, 
+.widget_archive li a:before, 
+.widget_recent_entries li a:before ,
+.widget_pages li a:before, 
+.widget_nav_menu li a:before,
+.widget_mostlikedpostswidget li a:before,
+.widget_recentlylikedpostswidget li a:before,
+.widget_most_viewed_entries li a:before{content: "\f104"; left: auto; right:0; top:50%;}
+
+.widget_nav_menu li > a {  padding: 11px 30px 13px 20px; border-left:none; border-right: 2px solid rgba(153,153,153,0.3);}
+.widget_nav_menu li a:before { left:0; right:20px;}
+
+.social-count-plus li { float:right !important;} 
+
+.cactus-widget-posts .widget-picture,
+.cactus-widget-posts .cactus-widget-posts-content { float:right;}
+
+.widget_calendar caption { text-align:right;}
+.widget_tag_cloud .tagcloud a[class*="tag-link-"] { margin-right:0; margin-left:7px;}
+
+aside.widget_search form:before {margin-right:0; margin-left: 12px; right:auto; left:0;}
+aside.widget_search .search-submit { right:auto; left:2px;}
+aside.widget_search input[type="search"] { padding-right:10px; padding-left:40px;}
+
+/***Listing***/
+.cactus-change-video-sub
+{margin-right:0; margin-left:-3px;}
+
+.cactus-listing-config.style-1.style-2 .cactus-listing-content .cactus-note-cat {margin-right:0; margin-left:2px;}
+.cactus-listing-config.style-1 .primary-post-content .picture-content .content-abs-post .cactus-note-cat { margin-right:0; margin-left:2px;}
+.wp-pagenavi a, .wp-pagenavi span { margin: 0 0 10px 0 10px}
+.combo-change .listing-select ul { float:right;}
+.combo-change .listing-select > ul > li > ul { left:auto; right:0;}
+/******/
+
+.cactus-info, .vcard.author .fn > a { padding-right:0; padding-left:7px;}
+.cactus-listing-config.style-1 .cactus-related-post { padding-left:10px; padding-right:32px;}
+@media (max-width: 767px){
+	.cactus-listing-config.style-1 .cactus-related-post {
+	  width: 100%;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+}
+.cactus-listing-config.style-1 .cactus-related-post:before { left:auto; right:10px;}
+
+/*Single*/
+.single-post-content .heading-post .posted-on .cactus-note-cat { margin-right:auto; margin-left:3px;}
+.single-post-content .heading-post .posted-on .cactus-note-cat+.fix-responsive+* { margin-left:auto; margin-right:10px;}
+
+/*poll - rating*/
+.cactus-poll-block .poll-question-icon > span {  margin-right: 0; margin-left:15px;}
+.cactus-poll-block .poll-vote-form .poll-list-answers .poll-answer input { margin: 0 0 0 10px;}
+.star-rating-block .rating-title:before { right:0; left:auto;}
+.star-rating-block .rating-title { padding-left:0; padding-right:10px;}
+
+.cactus-poll-block .poll-result-block .poll-result-item .option-item {padding-right: 0;}
+.cactus-poll-block .number-of-votes {right: auto; left: 0;}
+
+/**/
+.cactus-navigation-post .prev-post + .next-post:before { right:auto; left:100%;}
+@media (max-width: 767px){
+	.cactus-navigation-post .prev-post + .next-post:before {
+
+	  left: auto;
+	  right: 50%;
+	  margin-left: auto;
+	  margin-right:-25%;
+	}
+}
+
+/**/
+.cactus-author-post .cactus-author-pic .img-content { margin-right:0; margin-left:20px;}
+.cactus-author-post .social-listing:not(.not-author-single) { margin-left:auto; margin-right:-15px;}
+
+/**/
+.cactus-related-posts .title-related-post { padding-left:0; padding-right:12px;}
+.cactus-related-posts .title-related-post:before { left:auto; right:0;}
+.cactus-related-posts .pre-carousel { left:0; text-align:center; right:auto; padding-left:0;}
+.cactus-related-posts .next-carousel { left:25px; right:auto}
+
+/*comment*/
+.comments-area .comment-reply-title, .comments-area .comments-title { padding-left:0; padding-right:12px;}
+.comments-area .comment-reply-title:before, .comments-area .comments-title:before  { left:auto; right:0;}
+
+.comments-area .comment-author > img { margin-right:0; margin-left:12px;}
+.comments-area .comment-content { padding-left:0; padding-right:65px;}
+.comments-area .reply { right:auto; left:0;}
+.comments-area .comment-author > .fn:after { margin-left:0; margin-right:3px;}
+.comments-area .children article[id^="div-comment-"],
+.comments-area .children article[id^="div-comment-"] + #respond { padding-left:0; padding-right:50px;}
+
+.comments-area .comment-metadata .edit-link { padding-left:0; padding-right:10px;}
+.comments-area .comment-metadata .edit-link:before {  margin-left:0; margin-right:3px; left:auto; right:-1px;}
+
+@media(max-width:480px) {
+	.comments-area .children article[id^="div-comment-"] { padding-right:0;}
+	.comments-area .reply { left:auto; right:9px;}
+}
+
+@media(max-width:400px) {
+	.comments-area .children article[id^="div-comment-"] { padding-right:0;}
+	.comments-area .reply { left:auto; right:9px;}
+	.comments-area footer.comment-meta {left:0; right:0;}
+	.comments-area .comment-metadata { left:auto; right:65px;}
+}
+
+/*Channel*/
+.navi-channel .navi-content { text-align:left;}
+.cactus-listing-config.style-1.style-3.playlist-no .navi-channel .subs { float:left !important; text-align:left;}
+.cactus-listing-config.style-1.style-3.playlist-no .navi-channel .subs+.navi { float:right !important}
+.cactus-listing-config.style-1.style-3.playlist-no .navi-channel .social-listing { margin-right:auto; margin-left:-10px;}
+.cactus-listing-config.style-1.style-3.playlist-no .navi .btn > i { margin-right:0; margin-left:6px;}
+
+@media (max-width: 767px){
+	.cactus-listing-config.style-1.style-3.playlist-no .navi-channel .subs, 
+	.cactus-listing-config.style-1.style-3.playlist-no .navi-channel .subs+.navi {
+	  width: 100%;
+	  float: none !important;
+	  text-align: center;
+	}
+	.cactus-listing-config.style-1.style-3.playlist-no .navi-channel .subs .social-listing li { margin:0 5px 10px 5px;}
+	.cactus-listing-config.style-1.style-3.playlist-no .navi-channel .social-listing  { margin-left:0; margin-right:0;}
+}
+
+.cactus-listing-config.style-1.style-2.channel-list .cactus-info { padding-right:0; padding-left:17px;}
+.channel-name-wrap .channel-picture { float:right; margin-right:0; margin-left:15px;}
+.cactus-newsfeed .channel-name-wrap { float:right !important;}
+.cactus-newsfeed .navi-channel .subs { float:left !important; text-align:left;}
+
+.ct-heading-special .subs-button:first-child { margin-right:0; margin-left:3px;}
+.ct-heading-special .social-listing { margin-right:0;}
+.cactus-listing-config.style-1.style-3.style-channel.ct-special .row > *:not(.post-channel-special) .navi-channel .navi-content { text-align:right}
+.cactus-listing-config.style-1.style-3.style-channel.ct-special .row > *:not(.post-channel-special) .navi-channel .navi .navi-item + .navi-item { margin-right:0; margin-left:27px;}
+.cactus-listing-config.style-1.style-3.style-channel.ct-special .row > *:not(.post-channel-special) .navi-channel .navi .navi-item:first-child { margin-right:0; margin-left:27px;}
+
+/**/
+.tag-group > span { padding: 0 0 0 5px;   margin-right: 0px; margin-left:2px;}
+
+.smart-list-post-wrap .page-links { right:auto; left:0;}
+.smart-list-post-wrap .title-page-post { margin-right:0; margin-left:130px;}
+.smart-list-post-wrap .post-static-page { margin-right:0; margin-left:7px;}
+
+/*Slider*/
+.cactus-slider-wrap .cactus-slider-post-title { left:auto; right:0;}
+.cactus-slider-sync[data-layout="vertical"] .cactus-silder-sync-listing .swiper-slide:before { left:auto; right:0;}
+.cactus-slider-sync[data-layout="vertical"] .cactus-silder-sync-listing .sync-img-content > div > a { padding-right:22px; padding-left:20px;}
+.cactus-carousel .cactus-note-point,
+.cactus-thumb-slider .cactus-note-point {margin-left:2px; margin-right:-5px;}
+.cactus-carousel .cactus-note-cat,
+.cactus-carousel .cactus-note-point,
+.cactus-banner-parallax .cactus-note-cat,
+.cactus-banner-parallax .cactus-note-point,
+.cactus-banner-parallax .sub-content .cactus-note-cat,
+.cactus-banner-parallax .sub-content .cactus-note-point {margin-left:2px; margin-right:0;}
+
+/**/
+.cactus-elements-search [type="submit"], .cactus-elements-search [type="submit"]:hover, .cactus-elements-search [type="submit"]:focus { right:auto; left:0; font-size:0; color:rgba(255,255,255,0)}
+.cactus-elements-search .fa-search { right:auto; left:12px;}
+
+/*sc*/
+.cactus-testimonials-info .info-content { text-align:left;}
+.cactus-download-box { margin-right:0; margin-left:12px;}
+.cactus-icon-box:not(.icon-right):not(.icon-top){ direction:ltr}
+
+/*Elements*/
+.btn-default, button, input[type=button], input[type=submit], .btn-default:visited, button:visited, input[type=button]:visited, input[type=submit]:visited  { margin-right:auto; margin-left:7px;}
+th {
+  text-align: right;
+}
+
+.cactus-video-list-content .video-listing { direction:ltr}
+
+/*Smart content box*/
+@media(max-width:991px) {
+	.compare-table-wrapper {margin-right:0; margin-left:-3px;}
+}
+.cactus-scb .cactus-info { padding-right:0; padding-left:7px;}
+.cactus-scb[data-style="1"] .cactus-listing-config.style-1 .cactus-post-item:not(:first-child) .primary-post-content .picture { float:right;}
+.cactus-scb[data-style="4"] .cactus-listing-config.style-1 .fix-right-style-4 .cactus-post-item .primary-post-content .picture { float:right;}
+
+.cactus-scb .pre-carousel, .cactus-scb .next-carousel { right:auto; left:0;}
+.cactus-scb .next-carousel { left:26px;}
+
+.item-review h4 {padding-left:0; padding-right:10px;}
+.item-review h4:before {left:auto; right:0}
+.item-review .box-text .score { float:left; margin-right:20px; margin-left:0;}
+.item-review .box-progress h5 .score { right:auto; left:0;}
+.item-review .box-progress h5 { padding-right:0; padding-left:50px;}
+
+.body-content .wpb_tabs .wpb_tabs_nav li { float:right;}
+.body-content  .wpb_tour .wpb_tabs_nav { float:right; text-align:left}
+@media (max-width: 767px){
+	.body-content .wpb_tabs .wpb_tabs_nav li {
+	  float: none;
+	}
+	.body-content  .wpb_tour .wpb_tabs_nav {text-align:right}
+}
+
+/*Dropcap*/
+.dropcaps span:first-letter, 
+.dropcaps.one-class { float:right; margin-right:0; margin-left:20px;}
+
+.wptt_TwitterTweets ul.fetched_tweets li.tweets_avatar:before { left:auto; right:0;}
+.wptt_TwitterTweets ul.fetched_tweets li.tweets_avatar { padding-left:0 !important; padding-right:45px !important;}
+.wptt_TwitterTweets div.times { float:right}
+.cactus-listing-config.style-1 .primary-post-content.related-post { width:74%;}
+.cactus-listing-config.style-1 .cactus-related-post { width:26%;}
+
+.user_submit { float:left !important;}
+.modal-header .close { float:left;}
+.modal-body input[type=checkbox] { float:right; margin-right:0; margin-left:10px;}
+/*Woocommerce*/
+ul.product_list_widget li .reviewer{ float:right}
+.widget.widget_shopping_cart .buttons a{ direction:ltr}
+.widget ul.cart_list li .quantity, .widget ul.product_list_widget li .quantity{ float:right}
+.widget ul.cart_list li img, .widget ul.product_list_widget li img{ float:right; margin-right:0; margin-left:15px;}
+.woocommerce .woocommerce-archive .item-product a.button{ float:right}
+.woocommerce ul.products li.product .rate{ float:left}
+.woocommerce .woocommerce-archive ul.products li.product a.added_to_cart{ right:180px}
+table.shop_table thead th.product-remove{ padding-right:17px !important}
+.custom-shipping .woocommerce-shipping-calculator button{ margin-right:0}
+.custom-shipping .woocommerce-shipping-calculator #calc_shipping_country_field.form-row:after{ left:20px; right:auto}
+.woocommerce-checkout #order_review .shop_table thead th,
+.woocommerce-checkout #payment ul.payment_methods li,
+.woocommerce-checkout .woocommerce table.shop_table tfoot th, .woocommerce-checkout .woocommerce table.shop_table tfoot td, .woocommerce-checkout .woocommerce table.shop_table .cart_item td{ text-align:right}
+.woocommerce-checkout #payment .payment_method_paypal .about_paypal{ text-align:left}
+.woocommerce-checkout form.checkout_coupon .form-row input.input-text,
+.woocommerce-checkout form.checkout_coupon .form-row .label-cp{ float:right; margin-right:0}
+.woocommerce-checkout .checkout_coupon .button,
+.woocommerce-page #payment #place_order{ float:right}
+.woocommerce-checkout #payment div.form-row{ padding-right:0}
+.tm-multilink .multilink-table-wrap .multilink-item span a{ float:none}
+.tm-multilink .multilink-table-wrap .multilink-item{ border-left:0; border-right:3px solid rgba(250,218,26,1.0)}
+
+/*Fix widget tab (ThuHV)*/
+.easy-tab .tabs li:first-child a:before, .cactus-sidebar .widget .widget-title:before { left:auto; right:0;}
+.easy-tab .tabs li+li:last-child:before { right:0; left:-100vw}
+
+.cactus-slider-sync .cactus-silder-sync-content *, 
+.cactus-slider-sync .cactus-silder-sync-listing *,
+.cactus-thumb-slider .cactus-thumb-slider-container *,  
+.cactus-thumb-slider .cactus-thumb-slider-listing *,
+.cactus-slider .cactus-swiper-container *,
+.cactus-scb .cactus-swiper-container *,
+.cactus-banner-parallax-slider .cactus-swiper-container *,
+.cactus-carousel .cactus-swiper-container *,
+.cactus-swiper-container * { direction:rtl;}
+#top-nav .navbar-nav>li {float:right;}
+
+.cactus-breadcrumb > * { display:inline-block;}
+.cactus-breadcrumb > .fa.fa-angle-right:before {content: "\f104";}
+
+.go-to-top {left:calc((100% - 1289px) / 2); left:-webkit-calc((100% - 1289px) / 2); left:-moz-calc((100% - 1289px) / 2); left:-ms-calc((100% - 1289px) / 2); right:auto;}
+
+@media(max-width:1335px){
+	.go-to-top {left:calc((100% - 1140px) / 2); left:-webkit-calc((100% - 1140px) / 2); left:-moz-calc((100% - 1140px) / 2); left:-ms-calc((100% - 1140px) / 2); right:auto;}
+}
+
+@media(max-width:1199px){
+	.go-to-top {left:calc((100% - 940px) / 2); left:-webkit-calc((100% - 940px) / 2); left:-moz-calc((100% - 940px) / 2); left:-ms-calc((100% - 940px) / 2); right:auto;}
+}
+
+@media(max-width:992px){
+	.go-to-top {left:calc((100% - 720px) / 2); left:-webkit-calc((100% - 720px) / 2); left:-moz-calc((100% - 720px) / 2); left:-ms-calc((100% - 720px) / 2); right:auto;}
+}
+
+@media(max-width:767px){
+	.go-to-top {left:20px; right:auto;}
+}
+
+a.share-tool-block { position:relative;}
+.share-tool-block { float:right; border-left: 1px solid rgba(255,255,255,1.0); border-right:none;}
+
+.cactus-share-and-like .watch-action [class^="unlbg-style1"] { border:none;}
+
+.share-tool-block.open-carousel-listing {float:left !important; border-right: 1px solid rgba(255,255,255,1.0); border-left:none;}
+#main-menu .navbar-nav>li { float:right;}
+.cactus-note-cat { left:auto; right:0;}
+.cactus-note-point { right:auto; left:0;}
+
+body.archive.category .cactus-listing-heading {float:right;}
+body.archive.category .cactus-listing-heading + .combo-change {float:left;}

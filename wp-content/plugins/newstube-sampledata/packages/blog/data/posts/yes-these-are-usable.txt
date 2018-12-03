@@ -1,0 +1,1 @@
+Yes these are usable hoeevwr you'll need to put in WordPress loop and other code  so it'll be more complicated. I'll soon write few articles about developing WordPress themes   I will probably also make some blank templates that can be further modified.

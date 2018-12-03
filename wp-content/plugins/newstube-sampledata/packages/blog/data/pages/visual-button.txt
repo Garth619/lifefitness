@@ -1,0 +1,1 @@
+[vc_row][vc_column width="1/1"][button href="#" target="0"]Button[/button][/vc_column][/vc_row][vc_row][vc_column width="1/1"][button href="https://www.google.com.vn/" bg_color="#dbdbdb" text_color="#000000" target="1"]Button[/button][/vc_column][/vc_row]

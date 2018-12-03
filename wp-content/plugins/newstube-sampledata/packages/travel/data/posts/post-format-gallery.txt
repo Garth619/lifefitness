@@ -1,0 +1,12 @@
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+
+&nbsp;
+
+<!--nextpage-->
+
+You can use this page to test the Theme's handling of the
+
+[gallery]
+
+shortcode, including the <code>columns</code> parameter, from 1 to 9 columns. Themes are only required to support the default setting (3 columns), so this page is entirely optional.
+<h2></h2>

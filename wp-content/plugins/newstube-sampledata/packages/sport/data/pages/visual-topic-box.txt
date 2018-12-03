@@ -1,0 +1,1 @@
+[vc_row][vc_column width="1/1"][xtopic title="Topic" layout="1" alignment="left" condition="view" order="DESC" featured="0"][/vc_column][/vc_row][vc_row][vc_column width="1/1"][xtopic title="Topic 2" layout="2" alignment="left" condition="latest" order="DESC" featured="0"][/vc_column][/vc_row]

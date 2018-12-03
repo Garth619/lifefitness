@@ -1,0 +1,18 @@
+[START=WIDGET LOGIC OPTIONS]
+black-studio-tinymce-9	"is_front_page()"
+ct-recent-comments-2	""
+categories-2	""
+black-studio-tinymce-10	"is_home()"
+headline_id-3	""
+text-6	""
+headline_id-4	""
+text-10	""
+black-studio-tinymce-11	"is_home()"
+text-4	""
+popular_posts_id-3	""
+popular_posts_id-4	""
+popular_posts_id-5	""
+wptt_twittertweets-3	""
+apsc_widget-4	""
+popular_posts_id-6	""
+[STOP=WIDGET LOGIC OPTIONS]

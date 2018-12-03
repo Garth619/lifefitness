@@ -1,0 +1,7 @@
+Link:
+
+<a href="http://dev.cactusthemes.com/newstube/wp-content/uploads/2012/07/originaldixielandjazzbandwithalbernard-stlouisblues.mp3">St. Louis Blues</a>
+
+Audio shortcode:
+
+[audio http://dev.cactusthemes.com/newstube/wp-content/uploads/2012/07/originaldixielandjazzbandwithalbernard-stlouisblues.mp3]
